@@ -15,6 +15,13 @@ app.get("/enterprisebuild/v4.7", function(req, res){
     })
 })
 
+app.get("/mobile/2.0/channel/ushome", function(req, res){
+    fs.readFile("public/ushome.json", function(error, data){
+        res.writeHead(200, {"Content-Type":"application/json"})
+        res.end(data)
+    })
+})
+
 app.listen(process.env.PORT || 5000)
 
 const getHTML = "<html><body><h1>Hello There!</h1></body></html>"
