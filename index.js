@@ -1,6 +1,7 @@
 const express = require("express")
 const app = express()
 const fs = require("fs")
+const LPORT = process.env.PORT || 5000
 
 app.use(express.static("public"))
 
@@ -22,6 +23,8 @@ app.get("/mobile/2.0/channel/ushome", function(req, res){
     })
 })
 
-app.listen(process.env.PORT || 5000)
+app.listen(LPORT, () => {
+    console.log(`Up and running on port ${LPORT}`)
+})
 
 const getHTML = "<html><body><h1>Hello There!</h1></body></html>"
