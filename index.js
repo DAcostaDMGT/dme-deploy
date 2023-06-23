@@ -27,4 +27,4 @@ app.listen(LPORT, () => {
     console.log(`Up and running on port ${LPORT}`)
 })
 
-const getHTML = "<html><body><h1>Hello There!</h1></body></html>"
+const getHTML = "<html><head><title>Look Here</title></head><body><h1>Hello There!</h1></body></html>"
