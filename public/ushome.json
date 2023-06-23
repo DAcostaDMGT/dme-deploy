@@ -2,8 +2,8 @@
     "xpModules": {
         "6": {
         "type": "xpModule",
-        "title":"testXPModule",
       "content": {
+        "title":"testXPModule",
         "head": {
           "scripts": [
             "https://scripts.dailymail.co.uk/static/mol-fe/static/mol-fe-image-flip/1.9.2/index.js"
