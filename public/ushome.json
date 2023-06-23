@@ -1,7 +1,8 @@
 {
     "xpModules": {
         "6": {
-            "type": "xpModule",
+        "type": "xpModule",
+        "title":"testXPModule",
       "content": {
         "head": {
           "scripts": [
