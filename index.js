@@ -10,7 +10,10 @@ app.get("/", function(req,res){
 })
 
 app.get("/mobile/2.0/article/12345", (req,res) => {
-    res.type('html').send(getTestArticle)
+    fs.readFile("public/12345.json", function(error, data){
+        res.writeHead(200, {"Content-Type":"application/json"})
+        res.end(data)
+    })
 })
 
 app.get("/enterprisebuild/v5.1", function(req, res){
