@@ -86,7 +86,7 @@
           ]
         },
         "contentType": "base64",
-        "content": "PGh0bWw+Cgk8aGVhZD4KCQk8dGl0bGU+IGNvbnNlbnQgdGVzdCA8L3RpdGxlPgoJPC9oZWFkPgoJPGJvZHk+CgkJPHA+IGNvbnNlbnQgcG9zdCBtZXNzYWdlIG1vY2sgPC9wPgoJCTxzY3JpcHQ+CgkJCXdpbmRvdy53ZWJraXQubWVzc2FnZUhhbmRsZXJzLnZlbmRvckNoZWNrLnBvc3RNZXNzYWdlKHsiYWJjIjoiMTIzNDUifSkKCQk8L3NjcmlwdD4gCgk8L2JvZHk+CjwvaHRtbD4=",
+        "content": "PGh0bWw+CiAgICA8aGVhZD4KICAgICAgICA8dGl0bGU+TG9vayBIZXJlPC90aXRsZT4KICAgIDwvaGVhZD4KICAgIDxib2R5PgogICAgICAgIDxoMT5IZWxsbyBUaGVyZSE8L2gxPgogICAgICAgIDxzY3JpcHQ+d2luZG93LndlYmtpdC5tZXNzYWdlSGFuZGxlcnMudmVuZG9yQ2hlY2sucG9zdE1lc3NhZ2UoeyJkYXRhIjp7ImFiYyI6IjEyMzQ1In19KTwvc2NyaXB0PgogICAgPC9ib2R5Pgo8L2h0bWw+",
         "scriptTemplate": "PHNjcmlwdCBhc3luYyB0eXBlPSd0ZXh0L2phdmFzY3JpcHQnIHNyYz0ne3VybH0nPjwvc2NyaXB0Pg==",
         "styleTemplate": "PGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgaHJlZj0ie3VybH0iPg=="
       }
