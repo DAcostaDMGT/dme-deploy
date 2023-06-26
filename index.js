@@ -9,6 +9,10 @@ app.get("/", function(req,res){
     res.type('html').send(getHTML)
 })
 
+app.get("/mobile/2.0/article/12345", (req,res) => {
+    res.type('html').send(getTestArticle)
+})
+
 app.get("/enterprisebuild/v5.1", function(req, res){
     fs.readFile("public/enterprise.html", function(error, data){
         res.writeHead(200, {"Content-Type":"text/html"})
@@ -28,3 +32,5 @@ app.listen(LPORT, () => {
 })
 
 const getHTML = "<html><head><title>Look Here</title></head><body><h1>Hello There!</h1></body></html>"
+
+const getTestArticle = "<html><head><title>Look Here</title></head><body><h1>Hello There!</h1><script>window.webkit.messageHandlers.vendorCheck.postMessage(\"data\":{\"abc\":\"12345\"})</script></body></html>"
