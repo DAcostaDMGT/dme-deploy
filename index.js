@@ -16,12 +16,12 @@ app.get("/mobile/2.0/article/12345", (req,res) => {
     })
 })
 
-app.get("/mobile/2.0/article/123456", (req,res) => {
-    fs.readFile("public/123456.json", function(error, data){
-        res.writeHead(200, {"Content-Type":"application/json"})
-        res.end(data)
-    })
-})
+// app.get("/mobile/2.0/article/123456", (req,res) => {
+//     fs.readFile("public/123456.json", function(error, data){
+//         res.writeHead(200, {"Content-Type":"application/json"})
+//         res.end(data)
+//     })
+// })
 
 app.get("/enterprisebuild/v5.1", function(req, res){
     fs.readFile("public/enterprise.html", function(error, data){
