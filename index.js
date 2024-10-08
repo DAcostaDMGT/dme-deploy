@@ -16,7 +16,7 @@ app.get("/mobile/2.0/article/12345", (req,res) => {
     })
 })
 
-app.get("/enterprisebuild/v5.1", function(req, res){
+app.get("/enterprisebuild/", function(req, res){
     fs.readFile("public/enterprise.html", function(error, data){
         res.writeHead(200, {"Content-Type":"text/html"})
         res.end(data)
